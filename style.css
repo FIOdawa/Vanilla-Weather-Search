@@ -16,6 +16,13 @@ h1 {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
-#search-city {
-  max-width: 200px;
+.search-form-input {
+  background-color: red;
+  padding: 20px auto;
+
+  width: 50%;
+}
+.search-form-input {
+  background-color: black;
+  padding: 20px auto;
 }
