@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(210, 185, 224);
-  font-family: "Roboto", sans-serif;
+  background-color: #8abbf5;
+  font-family: "Gelasio", serif;
 }
 
 a {
@@ -8,7 +8,7 @@ a {
 }
 
 header {
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 1px solid rgba(201, 223, 250, 0.7);
   padding: 0 0 30px 0;
 }
 
@@ -21,7 +21,7 @@ main {
   max-width: 600px;
   border-radius: 20px;
   margin: 45px auto;
-  padding: 30px;
+  padding: 40px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
@@ -34,7 +34,7 @@ main {
   border: none;
 }
 .search-form-button {
-  background-color: #885df1;
+  background-color: #5c98df;
   color: white;
   font-size: 16px;
   padding: 15px 30px;
@@ -85,7 +85,7 @@ main {
 }
 
 footer {
-  border-bottom: 1px solid #f9f7fe;
+  border-top: 1px solid rgba(201, 223, 250, 0.7);
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 14px;
