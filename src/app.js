@@ -10,20 +10,21 @@ function updateWeather(response) {
 
   console.log(response);
 
-  let icon = document.querySelector("#icon");
-
-  icon.innerHTML = `<img src =${response.data.condition.icon_url} class="weather-emoji"/>`;
+  let iconElement = document.querySelector("#icon");
 
   cityElement.innerHTML = response.data.city;
   descriptionElement.innerHTML = response.data.condition.description;
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
   windElement.innerHTML = `${response.data.wind.speed}km/h`;
-  timeElement.innerHTML = formateDate(date);
+  timeElement.innerHTML = formatDate(date);
 
   temperatureElement.innerHTML = Math.round(temperature);
+  iconElement.innerHTML = `<img src =${response.data.condition.icon_url} class="weather-app-emoji"/>`;
+
+  getForecast(response.data.city);
 }
 
-function formateDate(date) {
+function formatDate(date) {
   let hours = date.getHours();
   let minutes = date.getMinutes();
   let days = [
@@ -37,7 +38,7 @@ function formateDate(date) {
   ];
   let day = days[date.getDay()];
 
-  if (minutes > 10) {
+  if (minutes < 10) {
     minutes = `0${minutes}`;
   }
 
