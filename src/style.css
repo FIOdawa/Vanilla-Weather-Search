@@ -1,17 +1,16 @@
 body {
-  background-image: url("https://images.unsplash.com/photo-1522441815192-d9f04eb0615c?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1678069085073-7145a8f676e9?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   position: center;
   background-size: cover;
 
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
 
 a {
-  color: rgb(143, 207, 70);
+  color: #82bebe;
 }
 
 header {
@@ -19,35 +18,38 @@ header {
   padding: 0 0 30px 0;
 }
 
-main {
-  padding: 60px 0;
-}
+
 
 .weather-app {
   background-color: white;
   max-width: 600px;
   border-radius: 20px;
-  margin: 45px auto;
+  margin: 50px auto;
   padding: 30px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
 .search-form-input {
-  background-color: rgb(234, 239, 227);
+  background-color: #ecf2f8;
   font-size: 16px;
   padding: 15px 20px;
   border-radius: 8px;
   width: 80%;
   border: none;
+  margin-left: 4px:
 }
 .search-form-button {
-  background-color: rgb(134, 159, 98);
+  background-color: #96b6b7;
   color: white;
   font-size: 16px;
   padding: 15px 30px;
   border: none;
   border-radius: 8px;
   margin-left: 4px;
+}
+
+main {
+  padding: 60px 0;
 }
 
 .weather-app-data {
@@ -69,7 +71,7 @@ main {
 }
 
 .weather-app-details strong {
-  color: rgb(172, 193, 79);
+   color: rgb(182, 203, 91);
 }
 
 .weather-app-temperature {
@@ -125,7 +127,6 @@ main {
 
 .weather-app-unit {
   font-size: 30px;
-
   margin-top: 10px;
 }
 
